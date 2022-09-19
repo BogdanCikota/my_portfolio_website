@@ -1,0 +1,43 @@
+.main {
+  @media only screen and (min-width: 426px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-contact {
+    flex: 1;
+    .hideAfterProfile {
+      @media only screen and (max-width: 425px) {
+        display: none;
+      }
+    }
+  }
+
+  .projects-courses {
+    flex: 2;
+    .projects-list {
+      // display: flex;
+      // flex-wrap: wrap;
+
+      // .project-card {
+      //   width: 15rem;
+      // }
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .faq-contact {
+      .linkToFaq {
+        @media only screen and (min-width: 426px) {
+          display: none;
+        }
+      }
+
+      .hideAfterProjects {
+        @media only screen and (min-width: 426px) {
+          display: none !important;
+        }
+      }
+    }
+  }
+}

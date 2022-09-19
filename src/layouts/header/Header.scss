@@ -1,0 +1,14 @@
+.header {
+  .nav {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    border: 1px solid black;
+
+    .linkToFaq {
+      @media only screen and (max-width: 425px) {
+        display: none;
+      }
+    }
+  }
+}

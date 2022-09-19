@@ -1,10 +1,12 @@
 import './App.scss';
-import { Link } from "react-router-dom";
+import Header from './layouts/header/Header';
+import Main from './layouts/main/Main';
 
 function App() {
   return (
     <div className="App">
-      <Link to="/faq">FAQ</Link>
+      <Header/>
+      <Main />
     </div>
   );
 }
