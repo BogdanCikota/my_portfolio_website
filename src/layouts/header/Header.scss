@@ -1,14 +1,35 @@
+@import '../../assets/scss/variables.scss';
+
 .header {
+  border-bottom: 2px solid #EBECF0;
+  border-radius: 0 0 0 1rem;
+  padding: $x;
+  
   .nav {
     display: grid;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    border: 1px solid black;
+
+    .name {
+      padding: $y;
+      .main-heading {
+        color: $main;
+        margin: 0;
+      }
+    }
 
     .linkToFaq {
+      color: $main;
+      font-size: 1.2rem;
+      font-weight: bold;
+      display: grid;
+      height: min-content;
+      align-self: center;
       @media only screen and (max-width: 425px) {
         display: none;
       }
     }
+
+    
   }
 }

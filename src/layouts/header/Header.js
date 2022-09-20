@@ -5,11 +5,14 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav">
-        <div className="name">
-          <div>Bogdan Cikota</div>
+        <Link className="name" to="/">
+          <h1 className="main-heading">Bogdan Cikota</h1>
           <div>Web Developer</div>
-        </div>
-        <Link className="linkToFaq" to="/faq">FAQ</Link>
+        </Link>
+
+        <Link className="linkToFaq" to="/faq">
+          FAQ
+        </Link>
       </nav>
     </header>
   );
