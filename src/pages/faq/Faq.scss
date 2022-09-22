@@ -1,0 +1,37 @@
+@import "../../assets/scss/variables.scss";
+
+.faq-main {
+
+  border-top: 2px solid rgb(231, 231, 231);
+
+  .faq-main-container {
+    padding: 2rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    max-width: 50rem;
+    display: grid;
+    gap: 0.5rem;
+    
+    h3,
+    .faq-heading {
+      text-transform: uppercase;
+      color: $main;
+    }
+
+    .faq-heading {
+      font-size: 2rem;
+    }
+    @media only screen and (max-width: $max) {
+      padding-left: 1.5rem;
+
+      div, h3 {
+        width: 280px;
+      }
+    }
+
+  }
+
+  a {
+    text-decoration: underline !important;
+  }
+}

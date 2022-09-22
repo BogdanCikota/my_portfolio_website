@@ -127,7 +127,9 @@ function Main() {
         </div>
 
         <section className="faq-contact">
-          <Link className="linkToFaq" to="/faq">
+          <Link onClick={()=>{
+            window.scrollTo({top:0})
+          }} className="linkToFaq" to="/faq">
             FAQ
           </Link>
 

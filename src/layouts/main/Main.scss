@@ -1,22 +1,18 @@
 @import "../../assets/scss/variables.scss";
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
   height: 12px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
@@ -30,8 +26,6 @@
 
 .main {
   @media only screen and (min-width: $min) {
-    // display: flex;
-    // flex-wrap: wrap;
     display: grid;
     grid-template-columns: 27rem 1fr;
   }
@@ -41,11 +35,8 @@
   }
 
   .profile-contact {
-    // display: grid;
-    // align-content: space-between;
     padding: $x;
     padding-bottom: 2rem;
-    // padding-bottom: 17rem;
     color: $whiteText;
     background-color: $dark;
     flex: 1;
@@ -72,11 +63,6 @@
     }
 
     .contact {
-      // background-color: rgba(0, 0, 0, 0.222);
-      // padding: 2rem;
-      // border-radius: 2rem;
-      // position: absolute;
-      // bottom: 2rem;
       a {
         color: $whiteText;
       }
@@ -104,30 +90,15 @@
     padding: 0.5rem 2rem 0 5rem;
 
     .projects {
-      // width: 90%;
-      // float: right;
 
       .projects-list {
         overflow: auto;
         white-space: nowrap;
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: center;
-
-        // display: grid;
-        // grid-template-columns: repeat(auto-fit, 200px);
-        // display: flex;
-        // gap: 2rem;
-        // overflow: hidden;
-        // justify-content: center;
 
         .project-card {
           box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.502);
           display: inline-block;
           margin: 1rem;
-          // width: 300px;
-          // height: 250px;
-          // background-color: beige;
 
           h3 {
             padding-left: 1rem;
@@ -152,16 +123,11 @@
           margin-left: 0.1rem;
         }
 
-        // .remote-jobs {
-
-        // }
       }
     }
 
     .courses {
       padding-top: 4rem;
-      // width: 90%;
-      // float: right;
 
       h3 {
         font-weight: bold;
@@ -170,10 +136,6 @@
       a {
         color: $main;
       }
-
-      // p {
-      //   max-width: 600px;
-      // }
 
       @media only screen and (max-width: $max) {
         padding-top: 1rem;
