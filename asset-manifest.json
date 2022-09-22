@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my_portfolio_website/static/css/main.50c9ff91.css",
+    "main.js": "/my_portfolio_website/static/js/main.076f7093.js",
+    "static/media/profile-pic.jpg": "/my_portfolio_website/static/media/profile-pic.0618149d85fccbf3a011.jpg",
+    "static/media/gasalarm_thumb.jpg": "/my_portfolio_website/static/media/gasalarm_thumb.e2c9d8dd10fcb9d255aa.jpg",
+    "static/media/todo_thumb.jfif": "/my_portfolio_website/static/media/todo_thumb.ab1bde4ccbacc9ae8eec.jfif",
+    "static/media/alecto_thumb.jfif": "/my_portfolio_website/static/media/alecto_thumb.6bc41a9559d4b3937288.jfif",
+    "static/media/calculator_thumb.jfif": "/my_portfolio_website/static/media/calculator_thumb.3c2c153b30bb983c4661.jfif",
+    "static/media/authmern_thumb.jfif": "/my_portfolio_website/static/media/authmern_thumb.1c7b2de56cb7b2c669ae.jfif",
+    "index.html": "/my_portfolio_website/index.html",
+    "main.50c9ff91.css.map": "/my_portfolio_website/static/css/main.50c9ff91.css.map",
+    "main.076f7093.js.map": "/my_portfolio_website/static/js/main.076f7093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50c9ff91.css",
+    "static/js/main.076f7093.js"
+  ]
+}
