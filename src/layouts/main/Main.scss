@@ -1,43 +1,210 @@
+@import "../../assets/scss/variables.scss";
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: $max) {
+  h2,
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
 .main {
-  @media only screen and (min-width: 426px) {
-    display: flex;
-    flex-wrap: wrap;
+  @media only screen and (min-width: $min) {
+    // display: flex;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 27rem 1fr;
+  }
+
+  h2 {
+    color: $main !important;
   }
 
   .profile-contact {
+    // display: grid;
+    // align-content: space-between;
+    padding: $x;
+    padding-bottom: 2rem;
+    // padding-bottom: 17rem;
+    color: $whiteText;
+    background-color: $dark;
     flex: 1;
+
+    img {
+      display: block;
+      width: 85%;
+      margin-top: 2rem;
+
+      @media only screen and (max-width: $max) {
+        max-width: 50%;
+        height: 100%;
+        margin-top: 0;
+      }
+    }
+
+    .tech-stack {
+      padding: $y;
+
+      ul {
+        padding: 0;
+        padding-left: 1.3rem;
+      }
+    }
+
+    .contact {
+      // background-color: rgba(0, 0, 0, 0.222);
+      // padding: 2rem;
+      // border-radius: 2rem;
+      // position: absolute;
+      // bottom: 2rem;
+      a {
+        color: $whiteText;
+      }
+    }
+
     .hideAfterProfile {
-      @media only screen and (max-width: 425px) {
+      @media only screen and (max-width: $max) {
         display: none;
       }
+    }
+
+    @media only screen and (max-width: $max) {
+      display: flex;
+      gap: 5%;
+      padding: 0;
+      padding-right: 1.5rem;
+      align-items: center;
     }
   }
 
   .projects-courses {
+    overflow: hidden;
+    border-top: 2px solid rgb(231, 231, 231);
     flex: 2;
-    .projects-list {
-      // display: flex;
-      // flex-wrap: wrap;
+    padding: 0.5rem 2rem 0 5rem;
 
-      // .project-card {
-      //   width: 15rem;
+    .projects {
+      // width: 90%;
+      // float: right;
+
+      .projects-list {
+        overflow: auto;
+        white-space: nowrap;
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+
+        // display: grid;
+        // grid-template-columns: repeat(auto-fit, 200px);
+        // display: flex;
+        // gap: 2rem;
+        // overflow: hidden;
+        // justify-content: center;
+
+        .project-card {
+          box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.502);
+          display: inline-block;
+          margin: 1rem;
+          // width: 300px;
+          // height: 250px;
+          // background-color: beige;
+
+          h3 {
+            padding-left: 1rem;
+          }
+        }
+
+        img {
+          opacity: 60%;
+
+          &:hover {
+            opacity: 100%;
+
+            transition: opacity 1s;
+          }
+
+          @media only screen and (max-width: $max) {
+            opacity: 100%;
+          }
+        }
+
+        :first-child {
+          margin-left: 0.1rem;
+        }
+
+        // .remote-jobs {
+
+        // }
+      }
+    }
+
+    .courses {
+      padding-top: 4rem;
+      // width: 90%;
+      // float: right;
+
+      h3 {
+        font-weight: bold;
+      }
+
+      a {
+        color: $main;
+      }
+
+      // p {
+      //   max-width: 600px;
       // }
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+
+      @media only screen and (max-width: $max) {
+        padding-top: 1rem;
+      }
     }
 
     .faq-contact {
       .linkToFaq {
-        @media only screen and (min-width: 426px) {
+        color: $main !important;
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: grid;
+        height: min-content;
+        align-self: center;
+        text-decoration: underline;
+        padding: 2rem 0;
+        @media only screen and (min-width: $min) {
           display: none;
         }
       }
 
       .hideAfterProjects {
-        @media only screen and (min-width: 426px) {
+        @media only screen and (min-width: $min) {
           display: none !important;
         }
       }
+    }
+
+    @media only screen and (max-width: $max) {
+      padding: 1rem 1.5rem;
+      padding-bottom: 2rem;
     }
   }
 }

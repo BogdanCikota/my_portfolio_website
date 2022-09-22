@@ -1,7 +1,7 @@
 
 function ProjectCard({picture, name, description, code, live}) {
   return (
-    <div className="project-card">ProjectCard</div>
+    <div className="project-card"></div>
   )
 }
 

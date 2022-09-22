@@ -1,13 +1,11 @@
 @import '../../assets/scss/variables.scss';
 
 .header {
-  border-bottom: 2px solid #EBECF0;
-  border-radius: 0 0 0 1rem;
   padding: $x;
   
   .nav {
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: auto auto;
     justify-content: space-between;
 
     .name {
@@ -15,6 +13,7 @@
       .main-heading {
         color: $main;
         margin: 0;
+        padding-bottom: .3rem;
       }
     }
 
@@ -25,11 +24,15 @@
       display: grid;
       height: min-content;
       align-self: center;
-      @media only screen and (max-width: 425px) {
+      @media only screen and (max-width: $max) {
         display: none;
       }
     }
 
     
+  }
+
+  @media only screen and (max-width: $max) {
+    padding-left: 1.5rem;
   }
 }
