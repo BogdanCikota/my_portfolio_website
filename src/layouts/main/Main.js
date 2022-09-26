@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Animate } from "react-simple-animate";
 import ContactCard from "./main_components/ContactCard";
 import "./Main.scss";
 import ProfilePic from "../../assets/images/profile-pic.jpg";
@@ -29,103 +30,120 @@ function Main() {
         </div>
         <ContactCard />
       </section>
+
       <section className="projects-courses">
-        <div className="projects">
-          <h2>PROJECTS GALLERY</h2>
-          <p>
-            <a
-              href="https://github.com/BogdanCikota"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://github.com/BogdanCikota
-            </a>
-          </p>
-          <div className="projects-list">
-            <div className="project-card remote-jobs">
-              <h3>Remote Jobs</h3>
-              <a
-                href="https://bogdancikota.github.io/remote-jobs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={remotejobsThumb} alt="remote jobs" />
-              </a>
-            </div>
-            <div className="project-card gasalarm">
-              <h3>Gasalarm Website</h3>
-              <a
-                href="http://www.gasalarmbeograd.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={gasalarmThumb} alt="Gasalarm Website" />
-              </a>
-            </div>
-            <div className="project-card auth-mern">
-              <h3>Authentication Template</h3>
-              <a
-                href="https://authmernapp.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={authmernThumb} alt="auth mern" />
-              </a>
-            </div>
-            <div className="project-card todo">
-              <h3>ToDo App</h3>
-              <a
-                href="https://bogdancikota.github.io/ToDoApp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={todoThumb} alt="todo app" />
-              </a>
-            </div>
-            <div className="project-card calculator">
-              <h3>Calculator</h3>
-              <a
-                href="https://bogdancikota.github.io/PROJECT-CALCULATOR/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={calculatorThumb} alt="calculator" />
-              </a>
-            </div>
-            <div className="project-card alecto">
-              <h3>Design Layout</h3>
-              <a
-                href="https://bogdancikota.github.io/alecto-design-layout/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={alectoThumb} alt="Alecto Design Layout" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="courses">
-          <h2>COURSES</h2>
-          <div className="course">
-            <h3>UDEMY</h3>
-            <a href="https://www.udemy.com/">https://www.udemy.com/</a>
+        <Animate
+          play={true}
+          duration={0.7}
+          ease={"linear"}
+          start={{ position: "relative", left: "-500px" }}
+          end={{ position: "relative", left: "0" }}
+        >
+          <div className="projects">
+            <h2>PROJECTS GALLERY</h2>
             <p>
-              - The Complete 2020 Web Development Bootcamp - Web Design for
-              Beginners: Real World Coding in HTML &amp; CSS
+              <a
+                href="https://github.com/BogdanCikota"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/BogdanCikota
+              </a>
             </p>
+            <div className="projects-list">
+              <div className="project-card remote-jobs">
+                <h3>Remote Jobs</h3>
+                <a
+                  href="https://bogdancikota.github.io/remote-jobs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={remotejobsThumb} alt="remote jobs" />
+                </a>
+              </div>
+              <div className="project-card gasalarm">
+                <h3>Gasalarm Website</h3>
+                <a
+                  href="http://www.gasalarmbeograd.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gasalarmThumb} alt="Gasalarm Website" />
+                </a>
+              </div>
+              <div className="project-card auth-mern">
+                <h3>Authentication Template</h3>
+                <a
+                  href="https://authmernapp.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={authmernThumb} alt="auth mern" />
+                </a>
+              </div>
+              <div className="project-card todo">
+                <h3>ToDo App</h3>
+                <a
+                  href="https://bogdancikota.github.io/ToDoApp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={todoThumb} alt="todo app" />
+                </a>
+              </div>
+              <div className="project-card calculator">
+                <h3>Calculator</h3>
+                <a
+                  href="https://bogdancikota.github.io/PROJECT-CALCULATOR/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={calculatorThumb} alt="calculator" />
+                </a>
+              </div>
+              <div className="project-card alecto">
+                <h3>Design Layout</h3>
+                <a
+                  href="https://bogdancikota.github.io/alecto-design-layout/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={alectoThumb} alt="Alecto Design Layout" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="course">
-            <h3>THE ODIN PROJECT</h3>
-            <a href="https://www.theodinproject.com/">
-              https://www.theodinproject.com/
-            </a>
+        </Animate>
 
-            <p> - Web development 101</p>
-            <p> - HTML and CSS</p>
-            <p> - JavaScript</p>
+        <Animate
+          play={true}
+          duration={0.7}
+          ease={"linear"}
+          start={{ position: "relative", left: "-500px" }}
+          end={{ position: "relative", left: "0" }}
+        >
+          <div className="courses">
+            <h2>COURSES</h2>
+            <div className="course">
+              <h3>UDEMY</h3>
+              <a href="https://www.udemy.com/">https://www.udemy.com/</a>
+              <p>
+                - The Complete 2020 Web Development Bootcamp - Web Design for
+                Beginners: Real World Coding in HTML &amp; CSS
+              </p>
+            </div>
+            <div className="course">
+              <h3>THE ODIN PROJECT</h3>
+              <a href="https://www.theodinproject.com/">
+                https://www.theodinproject.com/
+              </a>
+
+              <p> - Web development 101</p>
+              <p> - HTML and CSS</p>
+              <p> - JavaScript</p>
+            </div>
           </div>
-        </div>
+        </Animate>
 
         <section className="faq-contact">
           <Link
