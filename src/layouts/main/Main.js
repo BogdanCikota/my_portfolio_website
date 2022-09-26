@@ -8,6 +8,7 @@ import calculatorThumb from "../../assets/images/thumbs/calculator_thumb.jfif";
 import gasalarmThumb from "../../assets/images/thumbs/gasalarm_thumb.jpg";
 import remotejobsThumb from "../../assets/images/thumbs/remotejobs_thumb.jpg";
 import todoThumb from "../../assets/images/thumbs/todo_thumb.jfif";
+import faqIcon from "../../assets/images/faq.png";
 
 function Main() {
   return (
@@ -127,10 +128,15 @@ function Main() {
         </div>
 
         <section className="faq-contact">
-          <Link onClick={()=>{
-            window.scrollTo({top:0})
-          }} className="linkToFaq" to="/faq">
-            FAQ
+          <Link
+            className="linkToFaq"
+            onClick={() => {
+              window.scrollTo({ top: 0 });
+            }}
+            to="/faq"
+          >
+            <img src={faqIcon} alt="faq" />
+            <span>page</span>
           </Link>
 
           <ContactCard />
