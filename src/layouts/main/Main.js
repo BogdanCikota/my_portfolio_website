@@ -82,9 +82,9 @@ function Main() {
                 </a>
               </div>
               <div className="project-card todo">
-                <h3>ToDo App</h3>
+                <h3>Task Management App</h3>
                 <a
-                  href="https://bogdancikota.github.io/ToDoApp/"
+                  href="https://bogdancikota.github.io/Task-Management-App/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
