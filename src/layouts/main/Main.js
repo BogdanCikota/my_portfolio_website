@@ -8,7 +8,7 @@ import authmernThumb from "../../assets/images/thumbs/authmern_thumb.jfif";
 import calculatorThumb from "../../assets/images/thumbs/calculator_thumb.jfif";
 import gasalarmThumb from "../../assets/images/thumbs/gasalarm_thumb.jpg";
 import remotejobsThumb from "../../assets/images/thumbs/remotejobs_thumb.jpg";
-import todoThumb from "../../assets/images/thumbs/todo_thumb.jfif";
+import taskManagementThumb from "../../assets/images/thumbs/task_management_thumb.jpg";
 import faqIcon from "../../assets/images/faq.png";
 
 function Main() {
@@ -88,7 +88,7 @@ function Main() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={todoThumb} alt="todo app" />
+                  <img src={taskManagementThumb} alt="todo app" />
                 </a>
               </div>
               <div className="project-card calculator">
