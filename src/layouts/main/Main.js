@@ -23,6 +23,7 @@ function Main() {
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>Redux</li>
             <li>Bootstrap</li>
             <li>Git</li>
             <li>GitHub</li>
