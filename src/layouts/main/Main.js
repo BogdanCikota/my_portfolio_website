@@ -24,6 +24,7 @@ function Main() {
             <li>JavaScript</li>
             <li>React</li>
             <li>Redux</li>
+            <li>Firebase</li>
             <li>Bootstrap</li>
             <li>Git</li>
             <li>GitHub</li>
