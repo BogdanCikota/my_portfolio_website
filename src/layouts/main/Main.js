@@ -42,7 +42,7 @@ function Main() {
           end={{ position: "relative", left: "0" }}
         >
           <div className="projects">
-            <h2>PROJECTS GALLERY</h2>
+            <h2>Some of my projects</h2>
             <p>
               <a
                 href="https://github.com/BogdanCikota"
@@ -73,7 +73,7 @@ function Main() {
                   <img src={gasalarmThumb} alt="Gasalarm Website" />
                 </a>
               </div>
-              <div className="project-card auth-mern">
+              {/* <div className="project-card auth-mern">
                 <h3>Authentication Template</h3>
                 <a
                   href="https://authmernapp.herokuapp.com/"
@@ -82,8 +82,8 @@ function Main() {
                 >
                   <img src={authmernThumb} alt="auth mern" />
                 </a>
-              </div>
-              <div className="project-card todo">
+              </div> */}
+              {/* <div className="project-card todo">
                 <h3>Task Management App</h3>
                 <a
                   href="https://bogdancikota.github.io/Task-Management-App/"
@@ -92,7 +92,7 @@ function Main() {
                 >
                   <img src={taskManagementThumb} alt="todo app" />
                 </a>
-              </div>
+              </div> */}
               <div className="project-card calculator">
                 <h3>Calculator</h3>
                 <a
