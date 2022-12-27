@@ -4,11 +4,12 @@ import ContactCard from "./main_components/ContactCard";
 import "./Main.scss";
 import ProfilePic from "../../assets/images/profile-pic.jpg";
 import alectoThumb from "../../assets/images/thumbs/alecto_thumb.jfif";
-import authmernThumb from "../../assets/images/thumbs/authmern_thumb.jfif";
+// import authmernThumb from "../../assets/images/thumbs/authmern_thumb.jfif";
 import calculatorThumb from "../../assets/images/thumbs/calculator_thumb.jfif";
 import gasalarmThumb from "../../assets/images/thumbs/gasalarm_thumb.jpg";
 import remotejobsThumb from "../../assets/images/thumbs/remotejobs_thumb.jpg";
-import taskManagementThumb from "../../assets/images/thumbs/task_management_thumb.jpg";
+// import taskManagementThumb from "../../assets/images/thumbs/task_management_thumb.jpg";
+import airQualityThumb from "../../assets/images/thumbs/air_quality_thumb.jpg"
 import faqIcon from "../../assets/images/faq.png";
 
 function Main() {
@@ -71,6 +72,16 @@ function Main() {
                   rel="noopener noreferrer"
                 >
                   <img src={gasalarmThumb} alt="Gasalarm Website" />
+                </a>
+              </div>
+              <div className="project-card auth-mern">
+                <h3>Air Quality App</h3>
+                <a
+                  href="https://bogdancikota.github.io/Air-quality-app//"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={airQualityThumb} alt="air quality" />
                 </a>
               </div>
               {/* <div className="project-card auth-mern">
