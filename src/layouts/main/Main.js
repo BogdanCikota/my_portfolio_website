@@ -24,6 +24,7 @@ function Main() {
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>TypeScript</li>
             <li>Redux</li>
             <li>Firebase</li>
             <li>Bootstrap</li>
