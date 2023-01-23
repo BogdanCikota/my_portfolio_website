@@ -44,7 +44,7 @@ function Main() {
           end={{ position: "relative", left: "0" }}
         >
           <div className="projects">
-            <h2>Some of my projects</h2>
+            <h2>Some of my projects <br /> <span>Made with blood, sweat and tears, not youtube tutorials! &#128512;</span> </h2>
             <p>
               <a
                 href="https://github.com/BogdanCikota"

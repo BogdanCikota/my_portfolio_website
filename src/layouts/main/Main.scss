@@ -91,6 +91,13 @@
 
     .projects {
 
+      h2 {
+        span {
+          font-size: 0.8rem;
+          opacity: 0.6;
+        }
+      }
+
       .projects-list {
         overflow: auto;
         white-space: nowrap;
