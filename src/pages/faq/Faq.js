@@ -64,15 +64,11 @@ function Faq() {
                 href="https://bogdancikota.github.io/remote-jobs/"
                 target="_blank"
                 rel="noopener noreferrer"
-<<<<<<< HEAD
               >
                 https://bogdancikota.github.io/
                 <wbr />
                 remote-jobs/
               </a>
-=======
-              >https://bogdancikota.github.io/remote-jobs/</a>
->>>>>>> 96fe43eef8e9bc77b7767c29bc503eaa5b61edf5
               .
             </p>
           </div>
@@ -114,14 +110,10 @@ function Faq() {
           </div>
         </div>
 
-<<<<<<< HEAD
         <Link className="back-button" to={"/"}>
           Back to the main page
         </Link>
         <div onClick={()=> ScrollToTop()} className="to-top-button"></div>
-=======
-        <Link className="back-button" to={'/'}>Back to the main page</Link>
->>>>>>> 96fe43eef8e9bc77b7767c29bc503eaa5b61edf5
       </main>
     </div>
   );
