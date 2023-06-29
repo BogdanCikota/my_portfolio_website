@@ -1,4 +1,5 @@
 import './App.scss';
+import ScrollToTop from './components/ScrollToTop';
 import Header from './layouts/header/Header';
 import Main from './layouts/main/Main';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App container">
       <Header/>
       <Main />
+      <ScrollToTop/>
     </div>
   );
 }
