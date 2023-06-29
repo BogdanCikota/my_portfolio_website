@@ -1,8 +1,16 @@
 @import "../../assets/scss/variables.scss";
 
 .faq-main {
-
   border-top: 2px solid rgb(231, 231, 231);
+  padding-bottom: 2rem;
+
+  .back-button {
+    margin-left: 2rem;
+
+    @media only screen and (max-width: $max) {
+      margin-left: 1.5rem;
+    }
+  }
 
   .faq-main-container {
     padding: 2rem;
@@ -11,7 +19,7 @@
     max-width: 50rem;
     display: grid;
     gap: 0.5rem;
-    
+
     h3,
     .faq-heading {
       text-transform: uppercase;
@@ -21,14 +29,14 @@
     .faq-heading {
       font-size: 2rem;
     }
-    @media only screen and (max-width: $max) {
-      padding-left: 1.5rem;
 
-      div, h3 {
-        width: 280px;
-      }
+    p {
+      line-height: 1.5;
     }
 
+    @media only screen and (max-width: $max) {
+      padding-left: 1.5rem;
+    }
   }
 
   a {
