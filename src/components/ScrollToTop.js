@@ -1,17 +1,30 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+export default function ScrollToTop(prop) {
+  let mybutton = document.querySelector(".to-top-button");
 
-export default function ScrollToTop() {
-  const { pathname } = useLocation();
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
 
-  useEffect(() => {
-    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+  if (prop === undefined) {
     document.documentElement.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant", // Optional if you want to skip the scrolling animation
+      behavior: "smooth",
     });
-  }, [pathname]);
+  } else {
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }
 
   return null;
 }

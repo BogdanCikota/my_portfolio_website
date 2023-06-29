@@ -1,14 +1,19 @@
-import './App.scss';
-import ScrollToTop from './components/ScrollToTop';
-import Header from './layouts/header/Header';
-import Main from './layouts/main/Main';
+import { useEffect } from "react";
+import "./App.scss";
+import ScrollToTop from "./components/ScrollToTop";
+import Header from "./layouts/header/Header";
+import Main from "./layouts/main/Main";
 
 function App() {
+  useEffect(() => {
+    ScrollToTop(true);
+  }, []);
+
   return (
     <div className="App container">
-      <Header/>
+      <Header />
       <Main />
-      <ScrollToTop/>
+      <div onClick={()=> ScrollToTop()} className="to-top-button"></div>
     </div>
   );
 }
