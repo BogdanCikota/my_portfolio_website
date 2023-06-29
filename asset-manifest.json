@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my_portfolio_website/static/css/main.fff51cf4.css",
-    "main.js": "/my_portfolio_website/static/js/main.2f77f21b.js",
+    "main.css": "/my_portfolio_website/static/css/main.ea68cdc1.css",
+    "main.js": "/my_portfolio_website/static/js/main.cc136464.js",
     "static/media/profile-pic.jpg": "/my_portfolio_website/static/media/profile-pic.ed19165ac71ca7de0243.jpg",
     "static/media/gasalarm_thumb.jpg": "/my_portfolio_website/static/media/gasalarm_thumb.e2c9d8dd10fcb9d255aa.jpg",
     "static/media/alecto_thumb.jfif": "/my_portfolio_website/static/media/alecto_thumb.6bc41a9559d4b3937288.jfif",
     "static/media/calculator_thumb.jfif": "/my_portfolio_website/static/media/calculator_thumb.3c2c153b30bb983c4661.jfif",
     "index.html": "/my_portfolio_website/index.html",
-    "main.fff51cf4.css.map": "/my_portfolio_website/static/css/main.fff51cf4.css.map",
-    "main.2f77f21b.js.map": "/my_portfolio_website/static/js/main.2f77f21b.js.map"
+    "main.ea68cdc1.css.map": "/my_portfolio_website/static/css/main.ea68cdc1.css.map",
+    "main.cc136464.js.map": "/my_portfolio_website/static/js/main.cc136464.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff51cf4.css",
-    "static/js/main.2f77f21b.js"
+    "static/css/main.ea68cdc1.css",
+    "static/js/main.cc136464.js"
   ]
 }
