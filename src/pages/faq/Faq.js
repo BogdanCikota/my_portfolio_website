@@ -29,34 +29,31 @@ function Faq() {
           <div>
             <h3>How did you start?</h3>
             <p>
-              A few years ago, my curiosity led me to stumble upon a practice
-              book filled with HTML and CSS examples. Intrigued by the
-              possibilities, I delved into the world of web development,
-              exploring tutorials and online resources to learn more. That
-              initial encounter ignited my passion for coding and inspired me to
-              pursue a career as a web developer.
+              A few years ago, I found a practice book with HTML and CSS
+              examples. Curious, I started learning more about web development
+              through tutorials and online resources. That first experience
+              sparked my love for coding and inspired me to become a web
+              developer.
             </p>
           </div>
           <div>
             <h3>What is your greatest strength?</h3>
             <p>
-              One of my greatest strengths is persistence. I have a tenacious
-              attitude when it comes to problem-solving and tackling challenges
-              in web development. I believe in the importance of perseverance,
-              continuously seeking solutions and exploring different approaches
-              until I achieve the desired outcome. This determination enables me
-              to overcome obstacles and deliver high-quality results.
+              One of my biggest strengths is persistence. I'm very determined
+              when solving problems and facing challenges in web development. I
+              believe in sticking with it, always looking for solutions and
+              trying different approaches until I get the right result. This
+              determination helps me overcome obstacles and deliver great work.
             </p>
           </div>
           <div>
             <h3>what is the project that you are most proud of?</h3>
             <p>
-              One project that I am proud of is the development of a remote job
-              board website. I created this platform to provide a centralized
-              hub for remote job opportunities across various industries. By
-              leveraging my web development skills, I designed an intuitive and
-              user-friendly interface, integrated job listing functionality, and
-              implemented search filters to enhance the job-seeking experience
+              One project I am proud of is a remote job board website I
+              developed. I made this platform to be a central hub for remote job
+              opportunities in various industries. Using my web development
+              skills, I designed an easy-to-use interface, added job listings,
+              and created search filters to improve the job-seeking experience
               for remote workers.
               <br />
               You can check out the project at:{" "}
@@ -75,37 +72,34 @@ function Faq() {
           <div>
             <h3>did you have any collaboration/ teamwork experiance?</h3>
             <p>
-              Yes, I have prior experience working in a collaborative team
-              environment. In my previous position, we followed Agile
-              methodologies, specifically utilizing scrum events to facilitate
-              effective communication and task management. We utilized project
-              management software like Hubstaff (similar to Jira) to organize
-              and track our tasks, ensuring transparency and efficient teamwork
-              throughout the development process.
+              Yes, I have experience working in a collaborative team
+              environment. In my previous job, we used Agile methodologies and
+              scrum events to communicate and manage tasks effectively. We used
+              project management software like Hubstaff (similar to Jira) to
+              organize and track our tasks, ensuring transparency and efficient
+              teamwork throughout the development process.
             </p>
           </div>
           <div>
             <h3>How do you spend your free time?</h3>
             <p>
-              In my free time, I immerse myself in articles and YouTube videos
-              related to ecology and low-waste tips, as I have a deep interest
-              in environmental sustainability. Additionally, I value spending
-              quality time in nature, often accompanied by friends and family,
-              which provide a healthy balance to my sedentary work as a web
-              developer.
+              In my free time, I enjoy reading articles and watching YouTube
+              videos about ecology and low-waste tips because I'm very
+              interested in environmental sustainability. I also love spending
+              quality time in nature with friends and family, which helps
+              balance my sedentary work as a web developer.
             </p>
           </div>
           <div>
             <h3>Tell me an interesting fact about yourself</h3>
             <p>
-              Before embarking on my development career, I had the privilege of
-              working closely with children and individuals with learning
-              disabilities. This experience allowed me to develop strong
-              empathy, patience, and the ability to communicate effectively with
-              diverse groups of people. It shaped my understanding of the
-              importance of inclusivity and accessibility in web development,
-              driving my motivation to create user-friendly experiences for all
-              individuals.
+              Before starting my career in development, I had the privilege of
+              working closely with children and people with learning
+              disabilities. This experience helped me develop empathy, patience,
+              and effective communication skills with diverse groups. It also
+              made me understand the importance of inclusivity and accessibility
+              in web development, motivating me to create user-friendly
+              experiences for everyone.
             </p>
           </div>
         </div>
@@ -113,7 +107,7 @@ function Faq() {
         <Link className="back-button" to={"/"}>
           Back to the main page
         </Link>
-        <div onClick={()=> ScrollToTop()} className="to-top-button"></div>
+        <div onClick={() => ScrollToTop()} className="to-top-button"></div>
       </main>
     </div>
   );
